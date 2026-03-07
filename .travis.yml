@@ -13,7 +13,7 @@ script:
   - coverage run manage.py test
 
 after_success:
-  - coveralls --service=travis-ci
+  - coveralls
 
 deploy:
   - provider: elasticbeanstalk
