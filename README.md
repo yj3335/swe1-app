@@ -3,7 +3,7 @@
 [![Build Status](https://app.travis-ci.com/yj3335/swe1-app.svg?branch=main)](https://app.travis-ci.com/yj3335/swe1-app)
 [![Coverage Status](https://coveralls.io/repos/github/yj3335/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/yj3335/swe1-app?branch=main)
 
-A Django polls application built following the official Django tutorial.
+A Django polls application built following the official Django tutorial!
 
 ## Setup
 
