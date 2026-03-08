@@ -1,4 +1,5 @@
 language: python
+
 python:
   - "3.11"
 
@@ -10,7 +11,7 @@ install:
 script:
   - black --check .
   - flake8 .
-  - coverage run manage.py test
+  - coverage run --source=mysite,polls manage.py test
 
 after_success:
   - coveralls
